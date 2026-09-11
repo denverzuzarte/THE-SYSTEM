@@ -6,7 +6,13 @@ A **star-themed self-improvement RPG** for Android. THE SYSTEM turns your real-l
 habits into an RPG progression loop — a single-player, fully offline app. All data
 lives in a local SQLite database on the device. No account, no server, no cloud.
 
-![Screenshot](https://github.com/user-attachments/assets/fe0e7cf2-4b0b-47b6-9fa3-d4043bf24013)
+<p align="center">
+  <img src="docs/screenshots/command.png" width="18%" alt="Command — daily objectives" />
+  <img src="docs/screenshots/ascend.png" width="18%" alt="Ascend — ascension path" />
+  <img src="docs/screenshots/mirror.png" width="18%" alt="Mirror — character sheet" />
+  <img src="docs/screenshots/codex.png" width="18%" alt="Codex — mission list" />
+  <img src="docs/screenshots/archive.png" width="18%" alt="Archive — mission history" />
+</p>
 
 ---
 
