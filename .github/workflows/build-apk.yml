@@ -38,9 +38,11 @@ jobs:
         working-directory: the-system
         run: npm ci
 
-      - name: Make Gradle executable
+      - name: Fix Gradle Java configuration
         working-directory: the-system/android
-        run: chmod +x gradlew
+        run: |
+          sed -i '/^org.gradle.java.home=/d' gradle.properties
+          chmod +x gradlew
 
       - name: Build release APK
         working-directory: the-system/android
